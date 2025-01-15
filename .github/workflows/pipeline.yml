@@ -19,13 +19,11 @@ jobs:
         run: npm run eslint
       - name: Tests
         run: npm test
+      - name: Build
+        run: npm build
       - name: e2e tests
         uses: cypress-io/github-action@v5
         with:
           command: npm run test:e2e
           start: npm run start-prod
           wait-on: http://localhost:5000
-          wait-on-timeout: 60 # Set timeout to 60 seconds
-          record: false
-          publish-summary: true
-          component: false
