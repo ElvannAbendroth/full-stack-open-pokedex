@@ -6,7 +6,7 @@ module.exports = {
     node: true,
     cypress: true,
   },
-  extends: ['eslint:recommended', 'plugin:react/recommended'],
+  extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:cypress/recommended'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
