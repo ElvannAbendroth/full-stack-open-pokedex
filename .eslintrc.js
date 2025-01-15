@@ -13,7 +13,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['react', 'jest', 'cypress'],
+  plugins: ['react', 'jest'],
   settings: {
     react: {
       version: 'detect',
@@ -30,4 +30,5 @@ module.exports = {
     'arrow-spacing': ['error', { before: true, after: true }],
     'react/prop-types': 0,
   },
+  ignorePatterns: ['cypress/'],
 }
