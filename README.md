@@ -25,9 +25,9 @@ Start by running `npm install` inside the project folder
 - [x] 11.7
 - [x] 11.8
 - [x] 11.9
-- [] 11.10
-- [] 11.11
-- [] 11.12
+- [x] 11.10
+- [x] 11.11
+- [x] 11.12
 - [] 11.13
 - [] 11.14
 - [] 11.15
