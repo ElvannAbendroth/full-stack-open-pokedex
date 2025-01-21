@@ -40,6 +40,7 @@ jobs:
         with:
           severity: info
           details: Test Succeeded!
+          description: Yay! The tests have succeeded!
           webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
       - name: Test Failure
         uses: rjstone/discord-webhook-notify@v1
@@ -47,6 +48,7 @@ jobs:
         with:
           severity: error
           details: Test Failed!
+          description: Oh no! The tests have failed!
           webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
       - name: Test Cancelled
         uses: rjstone/discord-webhook-notify@v1
@@ -54,6 +56,7 @@ jobs:
         with:
           severity: warn
           details: Test Cancelled!
+          description: Oops, the tests were cancelled!
           webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
 
   deploy:
