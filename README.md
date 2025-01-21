@@ -33,7 +33,7 @@ Start by running `npm install` inside the project folder
 - [x] 11.15
 - [x] 11.16
 - [x] 11.17
-- [] 11.18
+- [x] 11.18
 - [] 11.19
 - [] 11.20
 - [] 11.21
