@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
-
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize]
 jobs:
-  simple_deployment_pipeline:
+  tests:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v4
