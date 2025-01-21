@@ -2,7 +2,8 @@ name: Health Check
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    # Schedule the workflow to run once per week on Sunday at midnight
+    - cron: '0 0 * * 0'
 
 jobs:
   health_check:

@@ -34,6 +34,6 @@ Start by running `npm install` inside the project folder
 - [x] 11.16
 - [x] 11.17
 - [x] 11.18
-- [] 11.19
-- [] 11.20
-- [] 11.21
+- [x] 11.19
+- [x] 11.20 Project link: https://full-stack-dnd.fly.dev/ || Repo Link: https://github.com/ElvannAbendroth/full-stack-dnd
+- [x] 11.21
