@@ -32,7 +32,7 @@ Start by running `npm install` inside the project folder
 - [x] 11.14
 - [x] 11.15
 - [x] 11.16
-- [] 11.17
+- [x] 11.17
 - [] 11.18
 - [] 11.19
 - [] 11.20
